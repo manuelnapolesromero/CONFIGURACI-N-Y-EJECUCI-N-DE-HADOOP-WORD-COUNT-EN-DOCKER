@@ -89,7 +89,9 @@ hadoop jar /tmp/hadoop-mapreduce-examples-2.7.1-sources.jar wordcount /user/root
 
 
 Nota: Asegúrate de que el nombre del archivo JAR sea el correcto y que el nombre del archivo de texto coincida.
-8. Ver el Resultado del Word Count
+
+**8. Ver el Resultado del Word Count**
+
 Para ver el resultado del trabajo de Word Count, usa el siguiente comando:
 
 Bash
@@ -99,7 +101,9 @@ hdfs dfs -cat /user/root/output/contador/part-r-00000
 
 
 Nota: El nombre del archivo de salida puede variar, pero generalmente es part-r-00000.
-9. Listar Archivos en HDFS
+
+**9. Listar Archivos en HDFS**
+
 Puedes listar los archivos en tu directorio de usuario en HDFS para verificar la existencia de los archivos de entrada y salida:
 
 Bash
@@ -108,7 +112,8 @@ Bash
 hdfs dfs -ls /user/root
 
 
-10. Copiar Archivo de Salida al Sistema Local
+**10. Copiar Archivo de Salida al Sistema Local**
+
 Para obtener el archivo de resultados del Word Count en tu máquina local (fuera del contenedor Docker):
 
 Bash
@@ -118,7 +123,9 @@ docker cp namenode:/user/root/output/contador/part-r-00000 /home/tu_usuario/Docu
 
 
 Asegúrate de reemplazar /home/tu_usuario/Documentos/Docker_Hadoop/ con la ruta de tu directorio local deseado y el nombre del archivo de salida.
-Dificultades y Soluciones
+
+**Dificultades y Soluciones**
+
 Durante el proceso, se encontraron varias dificultades comunes que fueron resueltas colaborativamente:
 Acceso al Nodo Maestro y Reenvío de Puertos
 Problema: Dificultad para acceder al nodo maestro después de docker-compose up y para configurar el reenvío de puertos para visualizar el panel de control.
