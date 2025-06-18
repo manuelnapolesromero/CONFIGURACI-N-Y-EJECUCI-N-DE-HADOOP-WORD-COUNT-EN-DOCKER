@@ -50,7 +50,7 @@ Descarga un libro o cualquier archivo .txt (ejemplo: "No, mis días en la librer
 
 Una vez dentro del contenedor namenode, puedes empezar a interactuar con HDFS.
 
-Crear un directorio de entrada en HDFS:
+**Crear un directorio de entrada en HDFS:**
 
 Bash
 
