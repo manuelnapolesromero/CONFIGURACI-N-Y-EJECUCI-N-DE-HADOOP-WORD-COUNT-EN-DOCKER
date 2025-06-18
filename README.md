@@ -58,7 +58,8 @@ Bash
 hdfs dfs -mkdir -p /user/root/input
 
 
-5. Copiar Archivos al Nodo Maestro
+**5. Copiar Archivos al Nodo Maestro**
+
 Desde tu máquina local (fuera del contenedor Docker), copia los archivos descargados al directorio /tmp del contenedor namenode:
 
 Bash
@@ -68,7 +69,8 @@ docker cp hadoop-mapreduce-examples-2.7.1-sources.jar namenode:/tmp/
 docker cp "No, mis días en la librería Morisaki.txt" namenode:/tmp/
 
 
-6. Mover Archivos dentro de HDFS
+**6. Mover Archivos dentro de HDFS**
+
 Ahora, dentro del terminal del contenedor namenode, mueve el archivo de texto del directorio /tmp a tu directorio de entrada en HDFS:
 
 Bash
@@ -77,7 +79,7 @@ Bash
 hdfs dfs -put /tmp/"No, mis días en la librería Morisaki.txt" /user/root/input/
 
 
-7. Ejecutar el Ejemplo Word Count
+**7. Ejecutar el Ejemplo Word Count**
 Una vez que el archivo de texto esté en HDFS, puedes ejecutar el ejemplo de Word Count:
 
 Bash
