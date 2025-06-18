@@ -1,4 +1,4 @@
-# CONFIGURACION-Y-EJECUCION-DE-HADOOP-WORD-COUNT-EN-DOCKER
+# **CONFIGURACION-Y-EJECUCION-DE-HADOOP-WORD-COUNT-EN-DOCKER**
 Este README detalla el proceso para configurar un entorno Hadoop en Docker, ejecutar comandos HDFS, gestionar archivos y realizar un ejemplo de "word count" en Hadoop.
 Resumen del Proyecto
 Este proyecto tiene como objetivo principal demostrar la configuración y operación básica de un clúster Hadoop utilizando Docker. Cubre todos los pasos, desde el despliegue del entorno Docker hasta la ejecución de un trabajo de "word count", incluyendo la interacción fundamental con el sistema de archivos distribuido HDFS. También se documentan los desafíos comunes enfrentados durante el proceso y sus respectivas soluciones colaborativas, ofreciendo una guía completa para la replicación.
