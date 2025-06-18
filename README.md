@@ -41,13 +41,15 @@ docker exec -it namenode bash
 Descarga el archivo JAR de ejemplos de Hadoop y un archivo de texto (por ejemplo, un libro) que se utilizará para el conteo de palabras.
 
 Archivo JAR de Ejemplos:
-
 Descarga hadoop-mapreduce-examples-2.7.1-sources.jar (o la versión que necesites) y guárdalo en la misma carpeta donde tienes tu configuración de Docker Hadoop (ej. Docker_Hadoop/).
 
 Archivo de Texto (Libro):
 Descarga un libro o cualquier archivo .txt (ejemplo: "No, mis días en la librería Morisaki.txt") y guárdalo en la misma carpeta que el archivo JAR.
-4. Ejecutar Comandos HDFS
+
+**4. Ejecutar Comandos HDFS**
+
 Una vez dentro del contenedor namenode, puedes empezar a interactuar con HDFS.
+
 Crear un directorio de entrada en HDFS:
 
 Bash
