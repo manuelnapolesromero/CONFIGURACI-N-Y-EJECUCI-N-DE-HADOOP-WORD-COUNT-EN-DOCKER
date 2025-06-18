@@ -10,6 +10,7 @@ Este proyecto tiene como objetivo principal demostrar la configuración y operac
 Antes de comenzar, asegúrate de tener instalados los siguientes programas en tu máquina:
 
 Docker Desktop: Necesario para ejecutar los contenedores Docker que conformarán el clúster Hadoop.
+
 Git: Imprescindible para clonar este repositorio y gestionar el código.
 Pasos de Configuración y Ejecución
 Sigue estos pasos para replicar el entorno Hadoop y ejecutar el ejemplo de Word Count.
