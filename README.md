@@ -131,14 +131,25 @@ Durante el proceso, se encontraron varias dificultades comunes que fueron resuel
 **Acceso al Nodo Maestro y Reenvío de Puertos**
 
 **Problema**: Dificultad para acceder al nodo maestro después de docker-compose up y para configurar el reenvío de puertos para visualizar el panel de control.
-Solución: Se utilizó el comando docker exec -it namenode bash para acceder al terminal del contenedor namenode. Se clarificó que el reenvío de puertos no fue crítico para la ejecución del ejemplo de Word Count en la terminal.
-Errores de Permisos y Sintaxis de Comandos
-Problema: Errores de "permission denied" y sintaxis incorrecta al ejecutar comandos HDFS (ej. hdfs dfs -mkdir, hdfs dfs -put).
-Solución: Se identificó la necesidad de usar sudo en algunos casos (aunque en este contexto, se corrigió principalmente la sintaxis y el usuario correcto del contenedor). La corrección colaborativa de espacios, guiones y mayúsculas/minúsculas en los comandos HDFS fue clave.
-Ubicación de Archivos
-Problema: Dificultad para ubicar la carpeta correcta de Docker Hadoop para guardar los archivos descargados y para copiar archivos entre el sistema local y el contenedor.
-Solución: Se siguió una guía paso a paso para descargar y mover los archivos a la ubicación correcta en el sistema de archivos local y luego se utilizaron comandos docker cp precisos para transferirlos al contenedor.
-Subida a GitHub
-Problema: Errores de autenticación persistentes, problemas con la configuración del repositorio local y errores al usar comandos git push.
-Solución: Se intentó configurar las credenciales de Git (git config --global user.name, user.email). Se realizaron múltiples intentos de git pull, git add., git commit, y git push. El problema principal se atribuyó a errores de contraseña o autenticación con GitHub. 
-Nota: Solicitar retroalimentación para  continuar con la subida.
+
+**Solución**: Se utilizó el comando docker exec -it namenode bash para acceder al terminal del contenedor namenode. Se clarificó que el reenvío de puertos no fue crítico para la ejecución del ejemplo de Word Count en la terminal.
+
+**Errores de Permisos y Sintaxis de Comandos**
+
+**Problema**: Errores de "permission denied" y sintaxis incorrecta al ejecutar comandos HDFS (ej. hdfs dfs -mkdir, hdfs dfs -put).
+
+**Solución**: Se identificó la necesidad de usar sudo en algunos casos (aunque en este contexto, se corrigió principalmente la sintaxis y el usuario correcto del contenedor). La corrección colaborativa de espacios, guiones y mayúsculas/minúsculas en los comandos HDFS fue clave.
+
+**Ubicación de Archivos**
+
+**Problema**: Dificultad para ubicar la carpeta correcta de Docker Hadoop para guardar los archivos descargados y para copiar archivos entre el sistema local y el contenedor.
+
+**Solución**: Se siguió una guía paso a paso para descargar y mover los archivos a la ubicación correcta en el sistema de archivos local y luego se utilizaron comandos docker cp precisos para transferirlos al contenedor.
+
+**Subida a GitHub**
+
+**Problema**: Errores de autenticación persistentes, problemas con la configuración del repositorio local y errores al usar comandos git push.
+
+**Solución**: Se intentó configurar las credenciales de Git (git config --global user.name, user.email). Se realizaron múltiples intentos de git pull, git add., git commit, y git push. El problema principal se atribuyó a errores de contraseña o autenticación con GitHub. 
+
+**Nota**: Solicitar retroalimentación para  continuar con la subida.
