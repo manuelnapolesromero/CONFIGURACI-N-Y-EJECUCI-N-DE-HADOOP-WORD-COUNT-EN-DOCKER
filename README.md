@@ -4,7 +4,9 @@ Este README detalla el proceso para configurar un entorno Hadoop en Docker, ejec
 **Resumen del Proyecto**
 
 Este proyecto tiene como objetivo principal demostrar la configuración y operación básica de un clúster Hadoop utilizando Docker. Cubre todos los pasos, desde el despliegue del entorno Docker hasta la ejecución de un trabajo de "word count", incluyendo la interacción fundamental con el sistema de archivos distribuido HDFS. También se documentan los desafíos comunes enfrentados durante el proceso y sus respectivas soluciones colaborativas, ofreciendo una guía completa para la replicación.
-Requisitos Previos
+
+**Requisitos Previos**
+
 Antes de comenzar, asegúrate de tener instalados los siguientes programas en tu máquina:
 Docker Desktop: Necesario para ejecutar los contenedores Docker que conformarán el clúster Hadoop.
 Git: Imprescindible para clonar este repositorio y gestionar el código.
