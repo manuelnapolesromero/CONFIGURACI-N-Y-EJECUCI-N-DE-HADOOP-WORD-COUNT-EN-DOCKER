@@ -14,7 +14,9 @@ Docker Desktop: Necesario para ejecutar los contenedores Docker que conformarán
 Git: Imprescindible para clonar este repositorio y gestionar el código.
 Pasos de Configuración y Ejecución
 Sigue estos pasos para replicar el entorno Hadoop y ejecutar el ejemplo de Word Count.
-1. Clonar el Repositorio
+
+**1. Clonar el Repositorio**
+
 Primero, clona este repositorio en tu máquina local y navega hasta la carpeta del proyecto:
 
 Bash
