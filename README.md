@@ -26,7 +26,8 @@ git clone <URL_DEL_REPOSITORIO>
 cd Docker_Hadoop # Asegúrate de que el nombre de la carpeta sea correcto
 
 
-2. Acceder al Nodo Maestro de Hadoop
+**2. Acceder al Nodo Maestro de Hadoop**
+
 Una vez que los contenedores Docker estén levantados (usando docker-compose up -d), puedes acceder al terminal del contenedor namenode:
 
 Bash
@@ -35,8 +36,10 @@ Bash
 docker exec -it namenode bash
 
 
-3. Descargar y Ubicar Archivos Necesarios
+**3. Descargar y Ubicar Archivos Necesarios**
+
 Descarga el archivo JAR de ejemplos de Hadoop y un archivo de texto (por ejemplo, un libro) que se utilizará para el conteo de palabras.
+
 Archivo JAR de Ejemplos:
 Descarga hadoop-mapreduce-examples-2.7.1-sources.jar (o la versión que necesites) y guárdalo en la misma carpeta donde tienes tu configuración de Docker Hadoop (ej. Docker_Hadoop/).
 Archivo de Texto (Libro):
