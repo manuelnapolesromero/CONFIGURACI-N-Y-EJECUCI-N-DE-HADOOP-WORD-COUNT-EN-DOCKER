@@ -127,8 +127,9 @@ Asegúrate de reemplazar /home/tu_usuario/Documentos/Docker_Hadoop/ con la ruta 
 **Dificultades y Soluciones**
 
 Durante el proceso, se encontraron varias dificultades comunes que fueron resueltas colaborativamente:
-Acceso al Nodo Maestro y Reenvío de Puertos
-Problema: Dificultad para acceder al nodo maestro después de docker-compose up y para configurar el reenvío de puertos para visualizar el panel de control.
+
+**Acceso al Nodo Maestro y Reenvío de Puertos**
+**Problema**: Dificultad para acceder al nodo maestro después de docker-compose up y para configurar el reenvío de puertos para visualizar el panel de control.
 Solución: Se utilizó el comando docker exec -it namenode bash para acceder al terminal del contenedor namenode. Se clarificó que el reenvío de puertos no fue crítico para la ejecución del ejemplo de Word Count en la terminal.
 Errores de Permisos y Sintaxis de Comandos
 Problema: Errores de "permission denied" y sintaxis incorrecta al ejecutar comandos HDFS (ej. hdfs dfs -mkdir, hdfs dfs -put).
