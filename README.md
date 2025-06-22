@@ -1,4 +1,4 @@
-# **WORD COUNT EN DOCKER**
+# **CONFIGURACIÓN Y EJECUCIÓN DE HADOOP_ WORD COUNT EN DOCKER**
 Este README detalla el proceso para configurar un entorno Hadoop en Docker, ejecutar comandos HDFS, gestionar archivos y realizar un ejemplo de "word count" en Hadoop.
 
 **Resumen del Proyecto**
