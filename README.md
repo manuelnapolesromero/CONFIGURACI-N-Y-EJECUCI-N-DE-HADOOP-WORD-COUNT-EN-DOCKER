@@ -79,7 +79,7 @@ Bash
 hdfs dfs -put /tmp/"No, mis días en la librería Morisaki.txt" /user/root/input/
 
 
-**7. Ejecutar el Ejemplo Word Count**
+##**7. Ejecutar el Ejemplo Word Count**
 Una vez que el archivo de texto esté en HDFS, puedes ejecutar el ejemplo de Word Count:
 
 Bash
